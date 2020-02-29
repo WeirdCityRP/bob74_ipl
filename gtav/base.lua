@@ -1,5 +1,5 @@
 
-Citizen.CreateThread(function()
+-- Citizen.CreateThread(function()
 
     -- Heist Jewel: -637.20159 -239.16250 38.1
     RequestIpl("post_hiest_unload")
@@ -92,4 +92,4 @@ Citizen.CreateThread(function()
     RequestIpl("canyonriver01")
     RequestIpl("canyonriver01_lod")
 
-end)
+-- end)

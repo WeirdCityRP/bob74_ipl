@@ -55,10 +55,10 @@ FinanceOrganization = {
     }
 }
 
-Citizen.CreateThread(function()
+-- Citizen.CreateThread(function()
     FinanceOrganization.Office.Init()
 
-    while true do
+    -- while true do
         if FinanceOrganization.Office.needToLoad then
             -- Need to load
             if (Global.FinanceOffices.isInsideOffice1 or Global.FinanceOffices.isInsideOffice2 or
@@ -78,8 +78,8 @@ Citizen.CreateThread(function()
             -- Not needed to load
             Wait(1000) -- We can wait longer when we don't need to display text
         end
-    end
-end)
+    -- end
+-- end)
 
 function DrawOrganizationName(name, style, color, font)
     if FinanceOrganization.Office.stage == 0 then

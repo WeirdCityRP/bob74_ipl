@@ -390,7 +390,7 @@ BikerGang = {
     }
 }
 
-Citizen.CreateThread(function()
+-- Citizen.CreateThread(function()
     -- Removing the black texture
     BikerGang.Clubhouse.Members.President.Init()
     BikerGang.Clubhouse.Members.VicePresident.Init()
@@ -403,7 +403,7 @@ Citizen.CreateThread(function()
     BikerGang.Clubhouse.MissionsWall.Init()
     
 
-    while true do
+    -- while true do
         if (BikerGang.Clubhouse.ClubName.needToLoad or
             BikerGang.Clubhouse.Emblem.needToLoad or
             BikerGang.Clubhouse.MissionsWall.needToLoad or
@@ -462,9 +462,9 @@ Citizen.CreateThread(function()
             -- No load needed
             Wait(1000)
         end
-    end
+    -- end
 
-end)
+-- end)
 
 
 
