@@ -48,7 +48,7 @@ BikerClubhouse2 = {
         A = "furnishings_01", B = "furnishings_02",
         -- Colors for "furnishings_01" only
         Color = {
-            turquoise = 0,
+            turquoise = 1,
             darkBrown = 1,
             brown = 2,
             -- 3 equal 1

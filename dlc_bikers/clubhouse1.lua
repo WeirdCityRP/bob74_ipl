@@ -17,9 +17,9 @@ BikerClubhouse1 = {
     Walls = {
         brick = "walls_01", plain = "walls_02",
         Color = {
-            sable = 0,
+            sable = 4,
             yellowGray = 1,
-            red = 2,
+            red = 3,
             brown = 3,
             yellow = 4,
             lightYellow = 5,

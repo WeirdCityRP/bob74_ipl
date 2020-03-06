@@ -92,4 +92,7 @@ Citizen.CreateThread(function()
     RequestIpl("canyonriver01")
     RequestIpl("canyonriver01_lod")
 
+	-- pillbox hospital
+	RemoveIpl("rc12b_default")
+	RequestIpl("rc12b_hospitalinterior")
 end)
